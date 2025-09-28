@@ -28,45 +28,45 @@ document.addEventListener('DOMContentLoaded', function () {
 
 //  PRODUCTS DATA
 const defaultProducts = [    // Electronics
-            { id: 1, title: "Smartphone Pro Max", description: "Latest flagship smartphone with advanced camera system and 5G connectivity", price: 45000, category: "Electronics", image: "assets/phone.jpg" },
-            { id: 2, title: "Wireless Headphones", description: "Premium noise-cancelling wireless headphones with 30-hour battery life", price: 15000, category: "Electronics", image: "assets/earbuds.jpg" },
-            { id: 3, title: "Laptop Gaming", description: "High-performance gaming laptop with RTX graphics and fast SSD storage", price: 75000, category: "Electronics", image: "assets/gaming laptop.jpg" },
-            { id: 4, title: "Smart Watch", description: "Fitness tracking smartwatch with heart rate monitor and GPS", price: 25000, category: "Electronics", image: "assets/smart watch .jpg" },
-            { id: 5, title: "Tablet 10 inch", description: "Powerful tablet perfect for work and entertainment with stylus support", price: 35000, category: "Electronics", image: "assets/Das iPad Air (2020) .jpg" },
-            { id: 6, title: "Camera DSLR", description: "Professional DSLR camera with multiple lenses for photography enthusiasts", price: 55000, category: "Electronics", image: "assets/Dslr camera.jpg" },
-            { id: 7, title: "Gaming Console", description: "Next-gen gaming console with 4K gaming and exclusive titles", price: 50000, category: "Electronics", image: "assets/Wireless Controller .jpg" },
-            { id: 8, title: "Bluetooth Speaker", description: "Portable wireless speaker with deep bass and waterproof design", price: 8000, category: "Electronics", image: "assets/bluetooth speaker.jpg" },
-            { id: 9, title: "Smart TV 55 inch", description: "4K Ultra HD Smart TV with HDR and streaming apps built-in", price: 65000, category: "Electronics", image: "assets/55 inch tv.jpg" },
-            { id: 10, title: "Wireless Mouse", description: "Ergonomic wireless mouse with precision tracking for work and gaming", price: 3500, category: "Electronics", image: "assets/wireless  mouse .jpg" },
-            { id: 11, title: "Mechanical Keyboard", description: "RGB backlit mechanical keyboard with customizable switches", price: 12000, category: "Electronics", image: "assets/Mechanical Keyboard.jpg" },
-            { id: 12, title: "Fitness Tracker", description: "Advanced fitness tracker with sleep monitoring and smartphone notifications", price: 18000, category: "Electronics", image: "assets/whoop.jpg" },
+            { id: 1, title: "Smartphone Pro Max", description: "Latest flagship smartphone with advanced camera system and 5G connectivity", price: 450, category: "Electronics", image: "assets/phone.jpg" },
+            { id: 2, title: "Wireless Headphones", description: "Premium noise-cancelling wireless headphones with 30-hour battery life", price: 150, category: "Electronics", image: "assets/earbuds.jpg" },
+            { id: 3, title: "Laptop Gaming", description: "High-performance gaming laptop with RTX graphics and fast SSD storage", price: 750, category: "Electronics", image: "assets/gaming laptop.jpg" },
+            { id: 4, title: "Smart Watch", description: "Fitness tracking smartwatch with heart rate monitor and GPS", price: 25, category: "Electronics", image: "assets/smart watch .jpg" },
+            { id: 5, title: "Tablet 10 inch", description: "Powerful tablet perfect for work and entertainment with stylus support", price: 350, category: "Electronics", image: "assets/Das iPad Air (2020) .jpg" },
+            { id: 6, title: "Camera DSLR", description: "Professional DSLR camera with multiple lenses for photography enthusiasts", price: 550, category: "Electronics", image: "assets/Dslr camera.jpg" },
+            { id: 7, title: "Gaming Console", description: "Next-gen gaming console with 4K gaming and exclusive titles", price: 50, category: "Electronics", image: "assets/Wireless Controller .jpg" },
+            { id: 8, title: "Bluetooth Speaker", description: "Portable wireless speaker with deep bass and waterproof design", price: 80, category: "Electronics", image: "assets/bluetooth speaker.jpg" },
+            { id: 9, title: "Smart TV 55 inch", description: "4K Ultra HD Smart TV with HDR and streaming apps built-in", price: 600, category: "Electronics", image: "assets/55 inch tv.jpg" },
+            { id: 10, title: "Wireless Mouse", description: "Ergonomic wireless mouse with precision tracking for work and gaming", price: 30, category: "Electronics", image: "assets/wireless  mouse .jpg" },
+            { id: 11, title: "Mechanical Keyboard", description: "RGB backlit mechanical keyboard with customizable switches", price: 120, category: "Electronics", image: "assets/Mechanical Keyboard.jpg" },
+            { id: 12, title: "Fitness Tracker", description: "Advanced fitness tracker with sleep monitoring and smartphone notifications", price: 180, category: "Electronics", image: "assets/whoop.jpg" },
             
             // Services
-            { id: 13, title: "Web Development", description: "Complete website development service with modern design and SEO optimization", price: 30000, category: "Services", image: "assets/web development.jpg" },
-            { id: 14, title: "Digital Marketing", description: "Comprehensive digital marketing package including social media and PPC campaigns", price: 25000, category: "Services", image: "assets/digital marketing.jpg" },
-            { id: 15, title: "Logo Design", description: "Professional logo design service with unlimited revisions and brand guidelines", price: 15000, category: "Services", image: "assets/logo maker.jpg" },
-            { id: 16, title: "Content Writing", description: "High-quality content writing service for blogs, websites, and marketing materials", price: 12000, category: "Services", image: "assets/content writing.jpg" },
-            { id: 17, title: "SEO Optimization", description: "Complete SEO service to improve your website ranking and organic traffic", price: 22000, category: "Services", image: "assets/seo.jpg" },
-            { id: 18, title: "Mobile App Development", description: "Native and cross-platform mobile app development for iOS and Android", price: 45000, category: "Services", image: "assets/mobile app.jpg" },
+            { id: 13, title: "Web Development", description: "Complete website development service with modern design and SEO optimization", price: 300, category: "Services", image: "assets/web development.jpg" },
+            { id: 14, title: "Digital Marketing", description: "Comprehensive digital marketing package including social media and PPC campaigns", price: 250, category: "Services", image: "assets/digital marketing.jpg" },
+            { id: 15, title: "Logo Design", description: "Professional logo design service with unlimited revisions and brand guidelines", price: 150, category: "Services", image: "assets/logo maker.jpg" },
+            { id: 16, title: "Content Writing", description: "High-quality content writing service for blogs, websites, and marketing materials", price: 120, category: "Services", image: "assets/content writing.jpg" },
+            { id: 17, title: "SEO Optimization", description: "Complete SEO service to improve your website ranking and organic traffic", price: 220, category: "Services", image: "assets/seo.jpg" },
+            { id: 18, title: "Mobile App Development", description: "Native and cross-platform mobile app development for iOS and Android", price: 450, category: "Services", image: "assets/mobile app.jpg" },
             // { id: 19, title: "Graphic Design", description: "Creative graphic design services for branding, print, and digital media", price: 18000, category: "Services", image: "https://via.placeholder.com/300x300/4F46E5/FFFFFF?text=Graphics" },
-            { id: 20, title: "Video Editing", description: "Professional video editing service for marketing, events, and social media", price: 20000, category: "Services", image: "assets/video edting.jpg" },
-            { id: 21, title: "Consulting", description: "Business strategy and IT consulting services for startups and enterprises", price: 35000, category: "Services", image: "assets/consulting.jpg" },
-            { id: 22, title: "Data Analysis", description: "Advanced data analytics and business intelligence reporting services", price: 28000, category: "Services", image: "assets/data analysis.jpg" },
-            { id: 23, title: "Cloud Migration", description: "Complete cloud migration service with security and performance optimization", price: 40000, category: "Services", image: "assets/cloud.jpg" },
+            { id: 20, title: "Video Editing", description: "Professional video editing service for marketing, events, and social media", price: 200, category: "Services", image: "assets/video edting.jpg" },
+            { id: 21, title: "Consulting", description: "Business strategy and IT consulting services for startups and enterprises", price: 500, category: "Services", image: "assets/consulting.jpg" },
+            { id: 22, title: "Data Analysis", description: "Advanced data analytics and business intelligence reporting services", price: 280, category: "Services", image: "assets/data analysis.jpg" },
+            { id: 23, title: "Cloud Migration", description: "Complete cloud migration service with security and performance optimization", price: 400, category: "Services", image: "assets/cloud.jpg" },
             
             // Clothing
             // { id: 24, title: "Designer Jacket", description: "Premium leather jacket with modern design and comfortable fit", price: 28000, category: "Clothing", image: "assets/jacket.jpg" },
-            { id: 25, title: "Formal Suit", description: "Elegant business suit made from premium fabric with tailored fit", price: 35000, category: "Clothing", image: "assets/formal suit.jpg" },
-            { id: 26, title: "Casual Jeans", description: "Comfortable stretch denim jeans in classic blue with modern cut", price: 8000, category: "Clothing", image: "assets/jeans.jpg" },
-            { id: 27, title: "Cotton T-Shirt", description: "Soft organic cotton t-shirt with eco-friendly materials and stylish design", price: 2500, category: "Clothing", image: "assets/cottontshirt.jpg" },
-            { id: 28, title: "Winter Coat", description: "Warm winter coat with waterproof material and insulated lining", price: 22000, category: "Clothing", image: "assets/winter jacket.jpg" },
-            { id: 29, title: "Running Shoes", description: "Professional running shoes with advanced cushioning and breathable design", price: 15000, category: "Clothing", image: "assets/running shoes.jpg" },
-            { id: 30, title: "Evening Dress", description: "Elegant evening dress perfect for special occasions and formal events", price: 18000, category: "Clothing", image: "assets/evening dress.jpg" },
-            { id: 31, title: "Polo Shirt", description: "Classic polo shirt made from premium cotton with comfortable collar", price: 5500, category: "Clothing", image: "assets/polo shirt.jpg" },
-            { id: 32, title: "Denim Skirt", description: "Trendy denim skirt with modern cut and versatile styling options", price: 6500, category: "Clothing", image: "assets/skirt.jpg" },
-            { id: 33, title: "Hoodie", description: "Comfortable cotton hoodie with adjustable drawstring and kangaroo pocket", price: 4500, category: "Clothing", image: "assets/hoodie.jpg" },
-            { id: 34, title: " cargo pent", description: "Stylish and comfortable cargo pants for everyday wear", price: 24000, category: "Clothing", image: "assets/cargopent.jpg" },
-            { id: 35, title: "Sneakers", description: "Trendy casual sneakers with comfortable sole and modern athletic design", price: 12000, category: "Clothing", image: "assets/Sneakers.jpg" }];
+            { id: 25, title: "Formal Suit", description: "Elegant business suit made from premium fabric with tailored fit", price: 35, category: "Clothing", image: "assets/formal suit.jpg" },
+            { id: 26, title: "Casual Jeans", description: "Comfortable stretch denim jeans in classic blue with modern cut", price: 80, category: "Clothing", image: "assets/jeans.jpg" },
+            { id: 27, title: "Cotton T-Shirt", description: "Soft organic cotton t-shirt with eco-friendly materials and stylish design", price: 50, category: "Clothing", image: "assets/cottontshirt.jpg" },
+            { id: 28, title: "Winter Coat", description: "Warm winter coat with waterproof material and insulated lining", price: 22, category: "Clothing", image: "assets/winter jacket.jpg" },
+            { id: 29, title: "Running Shoes", description: "Professional running shoes with advanced cushioning and breathable design", price: 50, category: "Clothing", image: "assets/running shoes.jpg" },
+            { id: 30, title: "Evening Dress", description: "Elegant evening dress perfect for special occasions and formal events", price: 80, category: "Clothing", image: "assets/evening dress.jpg" },
+            { id: 31, title: "Polo Shirt", description: "Classic polo shirt made from premium cotton with comfortable collar", price: 50, category: "Clothing", image: "assets/polo shirt.jpg" },
+            { id: 32, title: "Denim Skirt", description: "Trendy denim skirt with modern cut and versatile styling options", price: 65, category: "Clothing", image: "assets/skirt.jpg" },
+            { id: 33, title: "Hoodie", description: "Comfortable cotton hoodie with adjustable drawstring and kangaroo pocket", price: 40, category: "Clothing", image: "assets/hoodie.jpg" },
+            { id: 34, title: " cargo pent", description: "Stylish and comfortable cargo pants for everyday wear", price: 24, category: "Clothing", image: "assets/cargopent.jpg" },
+            { id: 35, title: "Sneakers", description: "Trendy casual sneakers with comfortable sole and modern athletic design", price: 12, category: "Clothing", image: "assets/Sneakers.jpg" }];
 
 // Function to get all products (default + user added)
 function getAllProducts() {
@@ -1673,3 +1673,58 @@ function logout() {
 
 // Make sure your existing checkLoginStatus() function is replaced by checkUserLoginStatus()
 // If you have a function named checkLoginStatus, you can rename it or merge it with the new one.
+
+
+// --- Modern & Animated Welcome Plugin ---
+document.addEventListener('DOMContentLoaded', () => {
+    const welcomeOverlay = document.getElementById('welcomeOverlay');
+    const exploreBtn = document.getElementById('exploreBtn');
+    const categoryLinks = document.querySelectorAll('.category-link');
+
+    // Function to close the modal and navigate
+    const closeModalAndNavigate = (url) => {
+        // Add a fade-out effect
+        if (welcomeOverlay) {
+            welcomeOverlay.style.opacity = '0';
+        }
+        
+        // Set a flag in session storage so it doesn't show again
+        sessionStorage.setItem('welcomeShown', 'true');
+
+        // After the transition, hide the element, restore scroll, and redirect
+        setTimeout(() => {
+            if (welcomeOverlay) {
+                welcomeOverlay.classList.add('hidden');
+            }
+            document.body.classList.remove('welcome-modal-open');
+            window.location.href = url;
+        }, 500); // Must match the transition duration in CSS
+    };
+
+    // Check if the welcome screen has been shown in this session
+    if (welcomeOverlay && !sessionStorage.getItem('welcomeShown')) {
+        // Show the welcome modal after a short delay
+        setTimeout(() => {
+            document.body.classList.add('welcome-modal-open');
+            welcomeOverlay.classList.remove('hidden');
+        }, 500); // 0.5-second delay before showing
+    }
+
+    // Event listener for the main "Explore" button
+    if (exploreBtn) {
+        exploreBtn.addEventListener('click', () => {
+            closeModalAndNavigate('listing.html');
+        });
+    }
+
+    // Event listeners for the category links
+    if (categoryLinks) {
+        categoryLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault(); // Prevent the link from navigating instantly
+                const destinationUrl = link.href;
+                closeModalAndNavigate(destinationUrl);
+            });
+        });
+    }
+});
